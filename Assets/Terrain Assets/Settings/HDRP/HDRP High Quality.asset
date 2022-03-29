@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RenderPipelineSettings:
     supportShadowMask: 0
-    supportSSR: 0
+    supportSSR: 1
     supportSSRTransparent: 1
     supportSSAO: 1
-    supportSSGI: 0
+    supportSSGI: 1
     supportSubsurfaceScattering: 0
     sssSampleBudget:
       m_Values: 140000002800000050000000
@@ -122,8 +122,8 @@ MonoBehaviour:
       useMipBias: 1
       enableDLSS: 1
       DLSSPerfQualitySetting: 2
-      DLSSUseOptimalSettings: 1
-      DLSSSharpness: 0.3
+      DLSSUseOptimalSettings: 0
+      DLSSSharpness: 0.4
       maxPercentage: 100
       minPercentage: 85
       dynResType: 1
