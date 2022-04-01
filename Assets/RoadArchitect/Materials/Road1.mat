@@ -229,7 +229,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _InvTilingScale: 1
+    - _InvTilingScale: 0.33333334
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
@@ -256,7 +256,7 @@ Material:
     - _RefractionModel: 0
     - _ShadowIntensity: 0.6
     - _Shininess: 0.4232378
-    - _Smoothness: 0.183
+    - _Smoothness: 0.093
     - _SmoothnessRemapMax: 0.5
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0

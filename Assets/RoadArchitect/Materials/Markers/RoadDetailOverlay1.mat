@@ -291,7 +291,7 @@ Material:
     - _RefractionModel: 0
     - _ShadowIntensity: 0.314
     - _Shininess: 0.081
-    - _Smoothness: 0.5
+    - _Smoothness: 0.051
     - _SmoothnessRemapMax: 0.5
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
