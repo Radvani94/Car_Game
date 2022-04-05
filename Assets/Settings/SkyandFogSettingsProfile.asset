@@ -166,7 +166,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.15
   temporalAccumulation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   ghostingReduction:
     m_OverrideState: 0
@@ -498,11 +498,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   rayBias:
-    m_OverrideState: 0
-    m_Value: 0.2
-  thicknessScale:
     m_OverrideState: 1
-    m_Value: 0.135
+    m_Value: 1
+  thicknessScale:
+    m_OverrideState: 0
+    m_Value: 0.12
   m_SampleCount:
     m_OverrideState: 0
     m_Value: 10
