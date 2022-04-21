@@ -13,7 +13,7 @@ public class SimpleCarController : MonoBehaviour
 
     public void Steer()
     {
-        m_steerAngle = maxSteerAngle * m_horizontal_input;
+        m_steerAngle = maxSteerAngle * m_horizontal_input * 0.5f;
         frontRW.steerAngle = m_steerAngle;
         frontLW.steerAngle = m_steerAngle;
 
@@ -21,6 +21,7 @@ public class SimpleCarController : MonoBehaviour
 
     public void Accelerate()
     {
+
         frontRW.motorTorque = motorForce * m_vertical_input;
         frontLW.motorTorque = motorForce * m_vertical_input;
 
@@ -65,5 +66,6 @@ public class SimpleCarController : MonoBehaviour
     public float maxSteerAngle = 30;
 
     public float motorForce = 50;
+    public float brakeForce = 50;
 
 }
